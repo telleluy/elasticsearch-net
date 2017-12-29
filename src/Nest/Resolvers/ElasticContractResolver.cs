@@ -27,7 +27,7 @@ namespace Nest.Resolvers
 		internal JsonConverterPiggyBackState PiggyBackState { get; set; }
 
 		public ElasticContractResolver(IConnectionSettings connectionSettings)
-			: base(true)
+			: base()
 		{
 			this.ConnectionSettings = connectionSettings;
 		}
